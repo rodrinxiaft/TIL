@@ -70,7 +70,7 @@ print(num_list) #[5,10,-2,1]のlistにできたので処理ができる
 ```
 input_list = list(map(int,input().split()))
 ```
-1. `input()`で入力された文字列を受け取る
+1. `input()`で入力された文字列を受け取る (文字列はiterableなので`map()`のargとして渡せる！)
 2. 受け取った文字列を`split()`で分割
 3. `int`で分割された文字列を整数化
 4. `list`で扱いやすいlistの形にする
