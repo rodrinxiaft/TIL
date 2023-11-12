@@ -68,7 +68,7 @@ print(num_list) #[5,10,-2,1]のlistにできたので処理ができる
 
 さらに、inputと組み合わせることで、**標準入力に対応できる**
 ```
-input_list = list(map(int,input(),split()))
+input_list = list(map(int,input().split()))
 ```
 1. `input()`で入力された文字列を受け取る
 2. 受け取った文字列を`split()`で分割
