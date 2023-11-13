@@ -15,7 +15,7 @@
 
 EX
 
-```　python
+```python
 numbers = map(int,['1','2,','3'])
 print(next(numbers)) #1が数字で返る
 ```
