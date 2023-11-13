@@ -26,8 +26,8 @@ print(next(numbers)) #1が数字で返る
 
 なんだかiterableとiteratorがごちゃってきたのでここで整理する
 
-- iterator ; list,dic,tuple,strとか、`for in` のinの後に渡せるやつ
-- iterable ; = iterable ただし、`next()`とかで取り出すと要素は元に戻らず、全て取り出した場合消滅する iterableの場合は元データが保持される
+- iterable ; list,dic,tuple,strとか、`for in` のinの後に渡せるやつ
+- iterator ; = iterable ただし、`next()`とかで取り出すと要素は元に戻らず、全て取り出した場合消滅する iterableの場合は元データが保持される
 ## for文でよくね問題
 ここで生じる疑問が`for in`でよくね？？？である。`for hoge in iterable`を使うことで、
 
