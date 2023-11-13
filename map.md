@@ -79,7 +79,9 @@ input_list = list(map(int,input().split()))
 
 という処理が`map()`一つで完結するのである。mapすごい。先程挙げたコード
 
-`l = list(map(int, input().split()))#lはlistとして与えられる`
+```python
+l = list(map(int, input().split()))#lはlistとして与えられる
+```
 
 もこの処理と全く同じである。
 
