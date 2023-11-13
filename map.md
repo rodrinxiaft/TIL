@@ -59,8 +59,8 @@ print(result)
 ```
 でかけた。読みやすさは別にして、非常にシンプルである。
 
-また`map()`はiteratorを返す、という性質により扱いやすいlistを作れる。下では与えられた空白のある文字列を`split()`で区切り、`int`で整数化、`list`でlistにする処理である。
-```
+また`map()`はiteratorを返す、という性質により扱いやすいlistを作れる。下は与えられた空白のある文字列を`split()`で区切り、`int`で整数化、`list`でlistにする処理である。
+```python
 num_str = "5 10 -2 1" #文字列なので処理できない
 num_list =list(map(int, num_str.split()))
 print(num_list) #[5,10,-2,1]のlistにできたので処理ができる
