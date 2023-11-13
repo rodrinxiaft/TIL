@@ -15,7 +15,7 @@
 
 EX
 
-```
+```　python
 numbers = map(int,['1','2,','3'])
 print(next(numbers)) #1が数字で返る
 ```
@@ -46,14 +46,14 @@ iteratorの最大のメリットはclass定義の際に発揮する。
 iterable/iteratorやらを整理していたら冗長になってしまった。ここで本題の`map()`である。
 
 `map(fn,iterable)`と使えるので、処理式をシンプルに済ますことができるというのがメリットである。
-```
+```python
 def hoge(l):
     result = [i*i for i in l]
     return sum(result)
 print(hoge(list1))
 ```
 が
-```
+```python
 result = sum(map(lambda num : num*num, list1))
 print(result)
 ```
@@ -67,7 +67,7 @@ print(num_list) #[5,10,-2,1]のlistにできたので処理ができる
 ```
 
 さらに、inputと組み合わせることで、**標準入力に対応できる**
-```
+```python
 input_list = list(map(int,input().split()))
 ```
 1. `input()`で入力された文字列を受け取る (文字列はiterableなので`map()`のargとして渡せる！)
